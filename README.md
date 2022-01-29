@@ -15,3 +15,7 @@ parses all non-corrupt `.nc` filings I have fed into it, which range from 1995 t
 
 Decodes binary files when provided. Extracts included `XBRL` (enclosed in `<XBRL></XBRL>` tags)
 as a `String`, but does not attempt to parse XBRL, which is an entirely separate format.
+
+## @twedl
+
+fooling around with this crate to see if I can get it to work for me
