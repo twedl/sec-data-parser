@@ -19,3 +19,12 @@ as a `String`, but does not attempt to parse XBRL, which is an entirely separate
 ## @twedl
 
 fooling around with this crate to see if I can get it to work for me
+
+
+Example:
+
+```rust
+~/projects/sec-data-parser/target/debug/nc-cli describe  ~/projects/sec-data-parser/nc-cli/tests/data/9999999997-22-000248.nc
+```
+
+Todo: just add a subcommand that says "out" that outputs json?

@@ -25,6 +25,6 @@ pub fn parse_submission(path: &Path) -> Result<Submission> {
     {
         Submission::from_parts(&parts)
     } else {
-        panic!("here1");
+        panic!("here1"); // could add my error handling code here maybe
     }
 }
